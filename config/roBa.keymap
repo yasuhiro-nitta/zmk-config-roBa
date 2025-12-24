@@ -76,10 +76,10 @@
 
         default {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R          &kp T                                              &kp Y      &kp U  &kp I     &kp O     &kp P
-&kp A             &kp S         &kp D         &kp F          &kp G        &lt 4 LG(LS(N4))      &kp MINUS       &kp H      &kp J  &lt 5 K   &kp L     &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V          &kp B        &kp LANGUAGE_2        &kp LANGUAGE_1  &kp N      &kp M  &mkp MB1  &mkp MB2  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &lt 1 SPACE  &lt 1 F3              &none           &kp ENTER                             &mkp MB3
+&kp Q             &kp W         &kp E         &kp R          &kp T                                                    &kp Y      &kp U  &kp I     &kp O     &kp P
+&kp A             &kp S         &kp D         &kp F          &kp G        &lt 4 LG(LS(N4))        &kp MINUS           &kp H      &kp J  &lt 5 K   &kp L     &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V          &kp B        &kp LANGUAGE_2          &kp LANGUAGE_1      &kp N      &kp M  &mkp MB1  &mkp MB2  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &lt 1 SPACE  &lt 1 LC(UP_ARROW)      &lt 2 LC(UP_ARROW)  &kp ENTER                             &mkp MB3
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -92,6 +92,8 @@
 &kp ASTERISK  &kp ASTERISK  &kp DOWN  &kp LEFT_PARENTHESIS  &kp UNDERSCORE  &trans      &trans  &kp PLUS   &kp RIGHT_PARENTHESIS  &kp DOWN  &kp SLASH  &kp FSLH
 &trans        &trans        &trans    &trans                &trans          &trans      &trans  &trans                                                 &trans
             >;
+
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         ARROW {
@@ -102,7 +104,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         NotYet {
@@ -112,6 +114,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
+
+            sensor-bindings = <&encoder_msc_down_up>;
         };
 
         Bluetooth {
