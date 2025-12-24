@@ -110,10 +110,10 @@
 
         Symbols {
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN     &kp HASH          &kp DOLLAR            &kp PERCENT                                &kp CARET          &kp AMPERSAND          &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp TILDE        &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp SQT            &kp C_MUTE      &trans  &kp SQT            &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE       &kp NON_US_BACKSLASH
-&kp GRAVE        &trans          &trans            &trans                &kp DOUBLE_QUOTES  &trans          &trans  &kp DOUBLE_QUOTES  &trans                 &kp COMMA          &kp DOT               &kp PIPE
-&trans           &trans          &trans            &trans                &trans             &trans          &trans  &trans                                                                             &trans
+&kp EXCLAMATION  &kp AT_SIGN     &kp HASH          &kp DOLLAR            &kp PERCENT                                &kp CARET      &kp AMPERSAND          &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp TILDE        &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp LEFT_PARENTHESIS  &kp SQT            &kp C_MUTE      &trans  &kp SEMICOLON  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE       &kp NON_US_BACKSLASH
+&kp GRAVE        &trans          &trans            &trans                &kp DOUBLE_QUOTES  &trans          &trans  &kp COLON      &trans                 &kp COMMA          &kp DOT               &kp PIPE
+&trans           &trans          &trans            &trans                &trans             &trans          &trans  &trans                                                                         &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -121,13 +121,13 @@
 
         special {
             bindings = <
-&kp ESCAPE  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &kp BACKSPACE
-&kp TAB     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &kp ENTER
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp ESCAPE  &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &kp BACKSPACE
+&kp TAB     &trans  &trans  &trans  &trans  &kp C_MUTE      &trans  &trans  &trans  &trans  &trans  &kp ENTER
+&trans      &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans      &trans  &trans  &trans  &trans  &trans          &trans  &trans                          &trans
             >;
 
-            sensor-bindings = <&encoder_msc_down_up>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         Bluetooth {
