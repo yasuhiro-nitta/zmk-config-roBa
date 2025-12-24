@@ -41,8 +41,8 @@ layers:
   - {t: TAB, h: Symbols}
   - {t: SPACE, h: special}
   - Ctl+UP ARROW
-  - Ctl+UP ARROW
-  - {t: SPACE, h: NumberArrow}
+  - BACKSPACE
+  - {t: ENTER, h: NumberArrow}
   - '&mkp MB3'
   NumberArrow:
   - '1'
@@ -265,7 +265,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [19, 20]
+- p: [17, 18]
   k: LANGUAGE 1
-- p: [12, 11]
+- p: [13, 14]
   k: LANGUAGE 2
