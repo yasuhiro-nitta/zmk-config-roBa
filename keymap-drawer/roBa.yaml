@@ -39,10 +39,10 @@ layers:
   - LEFT CONTROL
   - LEFT ALT
   - {t: TAB, h: Symbols}
-  - {t: LANGUAGE 2, h: special}
+  - {t: SPACE, h: special}
   - Ctl+UP ARROW
   - Ctl+UP ARROW
-  - {t: LANGUAGE 1, h: NumberArrow}
+  - {t: SPACE, h: NumberArrow}
   - '&mkp MB3'
   NumberArrow:
   - '1'
