@@ -52,6 +52,56 @@
             bindings = <&kp LANGUAGE_2>;
             key-positions = <13 14>;
         };
+
+        apostrophe {
+            bindings = <&kp SQT>;
+            key-positions = <5 17>;
+        };
+
+        quote2 {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <17 29>;
+        };
+
+        semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <6 18>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <18 30>;
+        };
+
+        backslash {
+            bindings = <&kp NON_US_BACKSLASH>;
+            key-positions = <7 19>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <19 31>;
+        };
+
+        grave-accent {
+            bindings = <&kp GRAVE>;
+            key-positions = <4 14>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <14 26>;
+        };
+
+        less-than {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <30 31>;
+        };
+
+        greater-than {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
