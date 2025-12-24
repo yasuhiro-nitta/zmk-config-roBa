@@ -35,13 +35,13 @@ layers:
   - '&mkp MB1'
   - '&mkp MB2'
   - /
-  - LCTRL
-  - LEFT WIN
+  - LEFT COMMAND
+  - LEFT CONTROL
   - LEFT ALT
   - BACKSPACE
   - {t: SPACE, h: NumberArrow}
   - {t: Ctl+UP ARROW, h: NumberArrow}
-  - {t: Ctl+UP ARROW, h: ARROW}
+  - {t: Ctl+UP ARROW, h: Symbols}
   - ENTER
   - '&mkp MB3'
   NumberArrow:
@@ -55,20 +55,20 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
+  - TAB
   - LEFT
   - UP
   - RIGHT
   - '-'
-  - {t: ▽, type: trans}
+  - MUTE
   - {t: ▽, type: trans}
   - '='
   - LEFT
   - UP
   - RIGHT
-  - {t: ▽, type: trans}
+  - Sft+TAB
   - '*'
-  - '*'
+  - <
   - DOWN
   - (
   - _
@@ -77,7 +77,7 @@ layers:
   - +
   - )
   - DOWN
-  - /
+  - '>'
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -88,41 +88,41 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  ARROW:
-  - ESCAPE
-  - Ctl+Sft+TAB
-  - UP ARROW
-  - Ctl+TAB
+  Symbols:
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - '~'
+  - '{'
+  - '['
+  - (
+  - ''''
+  - MUTE
+  - {t: ▽, type: trans}
+  - ''''
+  - )
+  - ']'
+  - '}'
+  - \
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '"'
   - {t: ▽, type: trans}
-  - HOME
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
-  - {t: ▽, type: trans}
-  - Gui+Sft+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ','
+  - .
+  - '|'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
