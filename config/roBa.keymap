@@ -14,6 +14,8 @@
     //automouse-layer = <4>;
 
     scroll-layers = <5>;
+    invert-move-x;
+    invert-move-y;
 
     // arrows {
     //     layers = <3>;
