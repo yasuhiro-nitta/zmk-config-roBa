@@ -40,7 +40,7 @@ layers:
   - LEFT ALT
   - BACKSPACE
   - {t: SPACE, h: NumberArrow}
-  - {t: Ctl+UP ARROW, h: NumberArrow}
+  - {t: Ctl+UP ARROW, h: Symbols}
   - {t: Ctl+UP ARROW, h: Symbols}
   - ENTER
   - '&mkp MB3'
@@ -128,8 +128,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NotYet:
