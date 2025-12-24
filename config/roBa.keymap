@@ -79,7 +79,7 @@
 &kp Q             &kp W             &kp E         &kp R          &kp T                                                    &kp Y      &kp U  &kp I     &kp O     &kp P
 &kp A             &kp S             &kp D         &kp F          &kp G        &lt 4 LG(LS(N4))        &kp MINUS           &kp H      &kp J  &lt 5 K   &kp L     &kp MINUS
 &mt LEFT_SHIFT Z  &kp X             &kp C         &kp V          &kp B        &kp LANGUAGE_2          &kp LANGUAGE_1      &kp N      &kp M  &mkp MB1  &mkp MB2  &kp SLASH
-&kp LEFT_COMMAND  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp BACKSPACE  &lt 1 SPACE  &lt 1 LC(UP_ARROW)      &lt 2 LC(UP_ARROW)  &kp ENTER                             &mkp MB3
+&kp LEFT_COMMAND  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp BACKSPACE  &lt 1 SPACE  &lt 2 LC(UP_ARROW)      &lt 2 LC(UP_ARROW)  &kp ENTER                             &mkp MB3
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -93,7 +93,7 @@
 &trans        &trans         &trans    &trans                &trans          &trans          &trans  &trans                                                        &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         Symbols {
@@ -104,7 +104,7 @@
 &trans           &trans          &trans            &trans                &trans             &trans          &trans  &trans                                                                             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
         };
 
         NotYet {
