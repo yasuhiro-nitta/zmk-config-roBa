@@ -38,10 +38,10 @@ layers:
   - LEFT COMMAND
   - LEFT CONTROL
   - LEFT ALT
-  - {t: TAB, h: special}
+  - Sft+LGUI
   - {t: SPACE, h: Symbols}
   - Ctl+UP ARROW
-  - BACKSPACE
+  - {t: BACKSPACE, h: Symbols}
   - {t: ENTER, h: NumberArrow}
   - '&mkp MB3'
   NumberArrow:
@@ -75,9 +75,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - +
-  - )
+  - Gui+LEFT
   - DOWN
-  - '>'
+  - Gui+RIGHT
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -99,30 +99,30 @@ layers:
   - '*'
   - (
   - )
-  - '~'
-  - '{'
-  - '['
-  - (
-  - ''''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - VOLUME UP
+  - '&bl BL_INC'
+  - {t: ▽, type: trans}
   - MUTE
   - {t: ▽, type: trans}
-  - ;
-  - )
-  - ']'
-  - '}'
-  - \
-  - '`'
+  - {t: ▽, type: trans}
+  - Ctl+LEFT
+  - Ctl+UP ARROW
+  - Ctl+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '"'
+  - VOLUME DOWN
+  - '&bl BL_DEC'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ':'
   - {t: ▽, type: trans}
-  - ','
-  - .
-  - '|'
+  - {t: ▽, type: trans}
+  - Gui+LEFT
+  - Ctl+DOWN
+  - Gui+RIGHT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,7 +170,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -327,5 +327,3 @@ combos:
   k: '@'
 - p: [11, 23]
   k: '#'
-- p: [34, 39]
-  k: Gui+Sft+Z
