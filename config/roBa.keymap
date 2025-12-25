@@ -140,7 +140,7 @@
 
         period {
             bindings = <&kp PERIOD>;
-            key-positions = <12 24>;
+            key-positions = <24 12>;
         };
 
         equal {
