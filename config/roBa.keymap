@@ -197,6 +197,11 @@
             bindings = <&kp HASH>;
             key-positions = <11 23>;
         };
+
+        cmdShiftZ {
+            bindings = <&kp LG(LS(Z))>;
+            key-positions = <34 39>;
+        };
     };
 
     macros {
