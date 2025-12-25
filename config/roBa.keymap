@@ -167,6 +167,16 @@
             bindings = <&kp ASTERISK>;
             key-positions = <0 10>;
         };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <8 20>;
+        };
+
+        slash {
+            bindings = <&kp SLASH>;
+            key-positions = <32 20>;
+        };
     };
 
     macros {
