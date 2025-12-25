@@ -38,8 +38,8 @@ layers:
   - LEFT COMMAND
   - LEFT CONTROL
   - LEFT ALT
-  - {t: TAB, h: Symbols}
-  - {t: SPACE, h: special}
+  - {t: TAB, h: special}
+  - {t: SPACE, h: Symbols}
   - Ctl+UP ARROW
   - BACKSPACE
   - {t: ENTER, h: NumberArrow}
@@ -126,8 +126,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,8 +170,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -301,21 +301,29 @@ combos:
   k: '['
 - p: [11, 12]
   k: '{'
-- p: [2, 12]
+- p: [25, 13]
   k: ','
 - p: [24, 12]
   k: .
-- p: [11, 1]
+- p: [3, 13]
   k: '='
-- p: [11, 23]
+- p: [2, 12]
   k: +
 - p: [9, 21]
   k: _
 - p: [21, 33]
   k: '?'
-- p: [0, 10]
-  k: '*'
 - p: [8, 20]
-  k: '-'
+  k: '*'
 - p: [32, 20]
-  k: /
+  k: '%'
+- p: [0, 10]
+  k: ESCAPE
+- p: [10, 11]
+  k: TAB
+- p: [22, 10]
+  k: Sft+TAB
+- p: [1, 11]
+  k: '@'
+- p: [11, 23]
+  k: '#'
