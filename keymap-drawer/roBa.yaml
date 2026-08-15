@@ -22,8 +22,8 @@ layers:
   - J
   - K
   - L
-  - ''''
-  - {t: Z, h: LEFT SHIFT}
+  - '-'
+  - LEFT SHIFT
   - Z
   - X
   - C
@@ -35,8 +35,8 @@ layers:
   - ','
   - .
   - /
-  - LCTRL
   - LEFT WIN
+  - LEFT CONTROL
   - LEFT ALT
   - {t: '&to_layer_0 INT_HENKAN', h: '6'}
   - {t: SPACE, h: NUM}
@@ -309,13 +309,27 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
 combos:
+- p: [17, 18]
+  k: LANG1
+- p: [13, 14]
+  k: LANG2
+- p: [30, 31]
+  k: '&mkp MB1'
+- p: [31, 32]
+  k: '&mkp MB2'
+- p: [13, 12]
+  k: (
+- p: [18, 19]
+  k: )
+- p: [0, 10]
+  k: ESCAPE
+- p: [1, 11]
+  k: '@'
+- p: [2, 3]
+  k: '['
+- p: [6, 7]
+  k: ']'
 - p: [11, 12]
-  k: TAB
-- p: [12, 13]
-  k: Sft+TAB
-- p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
-- p: [20, 21]
-  k: '"'
-- p: [24, 25]
-  k: '='
+  k: '{'
+- p: [19, 20]
+  k: '}'
