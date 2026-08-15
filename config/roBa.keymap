@@ -39,13 +39,13 @@
             key-positions = <13 14>;
         };
 
-        less-than {
-            bindings = <&kp LESS_THAN>;
+        left-click {
+            bindings = <&mkp MB1>;
             key-positions = <30 31>;
         };
 
-        greater-than {
-            bindings = <&kp GREATER_THAN>;
+        right-click {
+            bindings = <&mkp MB2>;
             key-positions = <31 32>;
         };
 
