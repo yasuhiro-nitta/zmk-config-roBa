@@ -29,29 +29,64 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
+        kana {
+            bindings = <&kp LANG1>;
+            key-positions = <17 18>;
+        };
+
+        eisuu {
+            bindings = <&kp LANG2>;
+            key-positions = <13 14>;
+        };
+
+        less-than {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <30 31>;
+        };
+
+        greater-than {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <31 32>;
+        };
+
+        left-normal {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <13 12>;
+        };
+
+        right-normal {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <18 19>;
+        };
+
+        escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 10>;
+        };
+
+        at {
+            bindings = <&kp AT_SIGN>;
+            key-positions = <1 11>;
+        };
+
+        left-bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <2 3>;
+        };
+
+        right-bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <6 7>;
+        };
+
+        left-brace {
+            bindings = <&kp LEFT_BRACE>;
             key-positions = <11 12>;
         };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
-        };
-
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
-        };
-
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
-            key-positions = <24 25>;
+        right-brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <19 20>;
         };
     };
 
@@ -80,10 +115,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp Z         &kp X         &kp C                        &kp V        &kp COLON                          &kp B          &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
+&kp Q           &kp W             &kp E         &kp R                        &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
+&kp A           &kp S             &kp D         &kp F                        &kp G        &kp LS(LG(S))                      &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&kp LEFT_SHIFT  &kp Z             &kp X         &kp C                        &kp V        &kp COLON                          &kp B          &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_WIN    &kp LEFT_CONTROL  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN      &kp BACKSPACE  &lt 1 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
