@@ -24,12 +24,12 @@ layers:
   - L
   - ''''
   - {t: Z, h: LEFT SHIFT}
+  - Z
   - X
   - C
   - V
-  - B
   - ':'
-  - ;
+  - B
   - N
   - M
   - ','
