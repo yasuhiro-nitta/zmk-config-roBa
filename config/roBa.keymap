@@ -100,6 +100,46 @@
             bindings = <&kp TAB>;
             key-positions = <10 11>;
         };
+
+        apostrophe {
+            bindings = <&kp SQT>;
+            key-positions = <5 17>;
+        };
+
+        quote2 {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <17 29>;
+        };
+
+        semicolon {
+            bindings = <&kp SEMICOLON>;
+            key-positions = <6 18>;
+        };
+
+        colon {
+            bindings = <&kp COLON>;
+            key-positions = <18 30>;
+        };
+
+        backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <7 19>;
+        };
+
+        pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <19 31>;
+        };
+
+        grave-accent {
+            bindings = <&kp GRAVE>;
+            key-positions = <4 14>;
+        };
+
+        tilde {
+            bindings = <&kp TILDE>;
+            key-positions = <14 26>;
+        };
     };
 
     macros {
