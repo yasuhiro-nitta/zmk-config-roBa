@@ -21,18 +21,16 @@ include:
  - board: seeeduino_xiao_ble
    shield: roBa_R
    snippet: studio-rpc-usb-uart
-   cmake-args: >
-  -DCONFIG_BT_CTLR_TX_PWR_PLUS_8=y      # 送信出力を上げる
-  -DCONFIG_BT_CTLR_PHY_2M=n             # 2M PHYを切って到達性を優先
-  -DCONFIG_BT_PERIPHERAL_PREF_MIN_INT=8 # 接続インターバルを
-  -DCONFIG_BT_PERIPHERAL_PREF_MAX_INT=8 # 8(=10ms)に固定
-  -CONFIG_PMW3610_FORCE_AWAKE=y
+   cmake-args: -DCONFIG_BT_CTLR_TX_PWR_PLUS_8=y      # 送信出力を上げる
+   cmake-args: -DCONFIG_BT_CTLR_PHY_2M=n             # 2M PHYを切って到達性を優先
+   cmake-args: -DCONFIG_BT_PERIPHERAL_PREF_MIN_INT=8 # 接続インターバルを
+   cmake-args: -DCONFIG_BT_PERIPHERAL_PREF_MAX_INT=8 # 8(=10ms)に固定
+   cmake-args: -CONFIG_PMW3610_FORCE_AWAKE=y
  - board: seeeduino_xiao_ble
    shield: roBa_L
-   cmake-args: >
-  -DCONFIG_BT_CTLR_TX_PWR_PLUS_8=y      # 送信出力を上げる
-  -DCONFIG_BT_CTLR_PHY_2M=n             # 2M PHYを切って到達性を優先
-  -DCONFIG_BT_PERIPHERAL_PREF_MIN_INT=8 # 接続インターバルを
-  -DCONFIG_BT_PERIPHERAL_PREF_MAX_INT=8 # 8(=10ms)に固定
+   cmake-args: -DCONFIG_BT_CTLR_TX_PWR_PLUS_8=y      # 送信出力を上げる
+   cmake-args: -DCONFIG_BT_CTLR_PHY_2M=n             # 2M PHYを切って到達性を優先
+   cmake-args: -DCONFIG_BT_PERIPHERAL_PREF_MIN_INT=8 # 接続インターバルを
+   cmake-args: -DCONFIG_BT_PERIPHERAL_PREF_MAX_INT=8 # 8(=10ms)に固定
  - board: seeeduino_xiao_ble
    shield: settings_reset
