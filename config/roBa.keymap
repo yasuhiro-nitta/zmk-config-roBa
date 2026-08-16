@@ -150,6 +150,16 @@
             bindings = <&kp PLUS>;
             key-positions = <14 26>;
         };
+
+        asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <8 20>;
+        };
+
+        slash {
+            bindings = <&kp PERCENT>;
+            key-positions = <32 20>;
+        };
     };
 
     macros {
