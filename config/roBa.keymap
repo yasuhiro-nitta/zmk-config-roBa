@@ -143,12 +143,12 @@
 
         equal {
             bindings = <&kp EQUAL>;
-            key-positions = <3 13>;
+            key-positions = <4 14>;
         };
 
         plus {
             bindings = <&kp PLUS>;
-            key-positions = <2 12>;
+            key-positions = <14 26>;
         };
     };
 
@@ -188,10 +188,10 @@
 
         NumberArrow {
             bindings = <
-&kp N1        &kp N2         &kp N3    &kp N4                &kp N5                                  &kp N6     &kp N7        &kp N8    &kp N9         &kp N0
-&kp TAB       &kp LEFT       &kp UP    &kp RIGHT             &kp MINUS       &kp C_MUTE      &trans  &kp EQUAL  &kp LEFT      &kp UP    &kp RIGHT      &trans
-&kp ASTERISK  &kp LESS_THAN  &kp DOWN  &kp LEFT_PARENTHESIS  &kp UNDERSCORE  &trans          &trans  &kp PLUS   &kp LG(LEFT)  &kp DOWN  &kp LG(RIGHT)  &kp FSLH
-&trans        &trans         &trans    &trans                &trans          &trans          &trans  &trans                                            &trans
+&kp N1   &kp N2    &kp N3    &kp N4     &kp N5                             &kp N6        &kp N7        &kp N8    &kp N9         &kp N0
+&kp TAB  &kp LEFT  &kp UP    &kp RIGHT  &kp EQUAL  &kp C_MUTE      &trans  &kp ASTERISK  &kp LEFT      &kp UP    &kp RIGHT      &trans
+&trans   &trans    &kp DOWN  &trans     &kp PLUS   &trans          &trans  &kp PLUS      &kp LG(LEFT)  &kp DOWN  &kp LG(RIGHT)  &trans
+&trans   &trans    &trans    &trans     &trans     &trans          &trans  &trans                                               &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
