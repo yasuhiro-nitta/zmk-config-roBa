@@ -103,22 +103,22 @@
 
         apostrophe {
             bindings = <&kp SQT>;
-            key-positions = <5 17>;
+            key-positions = <6 18>;
         };
 
         quote2 {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <17 29>;
+            key-positions = <18 30>;
         };
 
         semicolon {
             bindings = <&kp SEMICOLON>;
-            key-positions = <6 18>;
+            key-positions = <5 17>;
         };
 
         colon {
             bindings = <&kp COLON>;
-            key-positions = <18 30>;
+            key-positions = <17 29>;
         };
 
         backslash {
@@ -133,12 +133,12 @@
 
         grave-accent {
             bindings = <&kp GRAVE>;
-            key-positions = <4 14>;
+            key-positions = <3 13>;
         };
 
         tilde {
             bindings = <&kp TILDE>;
-            key-positions = <14 26>;
+            key-positions = <13 25>;
         };
     };
 
