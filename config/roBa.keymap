@@ -33,12 +33,12 @@
 
         kana {
             bindings = <&kp LANG1>;
-            key-positions = <17 18>;
+            key-positions = <18 19>;
         };
 
         eisuu {
             bindings = <&kp LANG2>;
-            key-positions = <13 14>;
+            key-positions = <13 12>;
         };
 
         left-click {
@@ -53,12 +53,12 @@
 
         left-normal {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <13 12>;
+            key-positions = <13 14>;
         };
 
         right-normal {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <18 19>;
+            key-positions = <18 17>;
         };
 
         escape {
