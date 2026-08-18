@@ -5,21 +5,25 @@
 #include <dt-bindings/zmk/pointing.h>
 
 // #includeのあとのあたりにスクロール量を変更
+
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 100
 
 //  behaviors に追加
 // 新しいスクロール動作の追加
-        scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
-            // 追加: スクロールのタップ時間を設定 (20ms)
-            tap-ms = <20>;
-        };
+
+scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
+    compatible = "zmk,behavior-sensor-rotate";
+    #sensor-binding-cells = <0>;
+    bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
+    // 追加: スクロールのタップ時間を設定 (20ms)
+
+    tap-ms = <20>;
+};
 
 // 設定したいレイヤー
-sensor-bindings = <&scroll_up_down>;
 
+sensor-bindings = <&scroll_up_down>;
 
 &mt {
     flavor = "balanced";
@@ -210,7 +214,7 @@ sensor-bindings = <&scroll_up_down>;
 &kp LEFT_WIN    &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LS(LEFT_GUI)  &lt 2 SPACE  &kp LC(UP_ARROW)            &kp BACKSPACE  &lt 1 ENTER                             &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         NumberArrow {
