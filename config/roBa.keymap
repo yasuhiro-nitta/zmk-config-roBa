@@ -198,10 +198,10 @@
 
         NumberArrow {
             bindings = <
-&trans  &kp N7  &kp N8  &kp N9  &kp MINUS                      &kp ASTERISK  &trans        &trans    &trans         &trans
-&trans  &kp N4  &kp N5  &kp N6  &kp PLUS   &trans      &trans  &kp SLASH     &kp LEFT      &kp UP    &kp RIGHT      &trans
-&trans  &kp N1  &kp N2  &kp N3  &kp ENTER  &trans      &trans  &kp EQUAL     &kp LG(LEFT)  &kp DOWN  &kp LG(RIGHT)  &trans
-&trans  &kp N0  &kp N0  &trans  &trans     &trans      &trans  &trans                                               &trans
+&trans  &kp N7  &kp N8  &kp N9  &kp MINUS                          &kp ASTERISK  &trans        &trans    &trans         &trans
+&trans  &kp N4  &kp N5  &kp N6  &kp PLUS       &trans      &trans  &kp SLASH     &kp LEFT      &kp UP    &kp RIGHT      &trans
+&trans  &kp N1  &kp N2  &kp N3  &kp ENTER      &trans      &trans  &kp EQUAL     &kp LG(LEFT)  &kp DOWN  &kp LG(RIGHT)  &trans
+&trans  &kp N0  &kp N0  &trans  &kp BACKSPACE  &trans      &trans  &trans                                               &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
